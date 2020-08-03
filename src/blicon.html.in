@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #aaa;
+}
+#desc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1204px;
+  text-align: center;
+  background: #aaa;
+  padding: 1em;
+  z-index: 1;
+}
+
+#bliconmap {
+  position: absolute;
+  top: 4em;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+</style>
+<script>
+function writeText(txt) {
+  document.getElementById("icon_name").innerHTML = txt;
+}
+</script>
+</head>
+
+<body>
+
+<div id="desc">
+    <div id="label">Icon name in C / Python code:</div>
+    <div id="icon_name">&nbsp;</div>
+</div>
+
+<img id="bliconmap" src="www/blender_icons32.png" width="1204" height="1280" alt="Blender Icons" usemap="#bliconmap" />
+
+<map name="bliconmap">
+${AREAS}
+</map> 
+
+
+</body>
+</html>

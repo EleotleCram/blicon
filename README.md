@@ -1,4 +1,4 @@
 # blicon
 ## Overview of Blender icons with their C / Python names
 
-[Overview of Blender icons with their C / Python names](https://eleotlecram.github.io/blicon/www/blicon.html)
+[Overview of Blender icons with their C / Python names](https://eleotlecram.github.io/blicon/)

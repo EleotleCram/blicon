@@ -40,7 +40,7 @@ function writeText(txt) {
     <div id="icon_name">&nbsp;</div>
 </div>
 
-<img id="bliconmap" src="www/blender_icons32.png" width="1204" height="1280" alt="Blender Icons" usemap="#bliconmap" />
+<img id="bliconmap" src="blender_icons32.png" width="1204" height="1280" alt="Blender Icons" usemap="#bliconmap" />
 
 <map name="bliconmap">
 ${AREAS}
